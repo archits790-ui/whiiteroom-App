@@ -24,12 +24,45 @@
   <a href="https://whiiteroom.com/docs"><strong>📖 Full Documentation</strong></a>
 </p>
 
+<br />
+
+<p align="center">
+  <img src="Images/Setup/Whitelist(fullN).webp" alt="Whiiteroom Windows Desktop App" width="58%" />
+  &nbsp;&nbsp;
+  <img src="Images/Mobile/2.1%20Home(D).webp" alt="Whiiteroom Android App" width="28%" />
+</p>
+
 </div>
+
+---
+
+## 📸 Visual Showcase & Screenshots
+
+### 💻 Windows Desktop Application
+
+| **Whitelist Setup Interface** | **Session Mode Selection** |
+| :---: | :---: |
+| <img src="Images/Setup/Whitelist(Day).webp" alt="Whitelist Day Mode" width="100%" /> | <img src="Images/Setup/mode(day).webp" alt="Focus Mode Selection" width="100%" /> |
+
+| **Auto-Start Session Scheduler** | **Pre-Session Review** |
+| :---: | :---: |
+| <img src="Images/Setup/Shedule(day).png" alt="Session Auto-Start Scheduler" width="100%" /> | <img src="Images/Setup/review(day).webp" alt="Session Review" width="100%" /> |
+
+### 📱 Android Mobile Application
+
+<p align="center">
+  <img src="Images/Mobile/2.%20Home.webp" alt="Android Focus Home" width="28%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Images/Mobile/3.%20Whitelist.webp" alt="Android Whitelist Setup" width="28%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="Images/Mobile/4.%20Browsers.webp" alt="Android Embedded Browser" width="28%" />
+</p>
 
 ---
 
 ## 📑 Table of Contents
 
+- [Visual Showcase & Screenshots](#-visual-showcase--screenshots)
 - [The Core Philosophy: "The White Room"](#-the-core-philosophy-the-white-room)
 - [How Enforcement Works (Technical Architecture)](#-how-enforcement-works-technical-architecture)
 - [Complete Feature Matrix](#-complete-feature-matrix)
