@@ -1,68 +1,128 @@
 <div align="center">
 
-<img src="logo.png" alt="Whiiteroom Logo" width="80" height="80" />
+<img src="logo.png" alt="Whiiteroom Logo" width="100" height="100" />
 
 # Whiiteroom
 
-**The OS-Level Distraction-Free Focus Workspace for Windows & Android**
+### The OS-Enforced Distraction-Free Focus Workspace for Windows & Android
 
-[![Website](https://img.shields.io/badge/Official_Website-whiiteroom.com-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whiiteroom.com)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://whiiteroom.com)
-[![Android](https://img.shields.io/badge/Android-APK%20Available-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://whiiteroom.com)
-[![License](https://img.shields.io/badge/License-Freeware%20%2F%20Proprietary-amber?style=for-the-badge)](https://whiiteroom.com)
-[![Release](https://img.shields.io/github/v/release/archits790-ui/whiiteroom-releases?style=for-the-badge&color=emerald)](https://github.com/archits790-ui/whiiteroom-releases/releases)
+[![Official Website](https://img.shields.io/badge/Official_Website-whiiteroom.com-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whiiteroom.com)
+[![Windows App](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://whiiteroom.com/#downloads)
+[![Android App](https://img.shields.io/badge/Android-APK%20Available-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://whiiteroom.com/#downloads)
+[![Platform License](https://img.shields.io/badge/License-Freeware%20%2F%20Launch%20Offer-emerald?style=for-the-badge)](https://whiiteroom.com/#pricing)
+[![Interactive Mockup](https://img.shields.io/badge/Simulator-Interactive%20Mockup-purple?style=for-the-badge)](https://whiiteroom.com)
 
 <br />
 
 <p align="center">
-  <strong>Whiiteroom</strong> is an OS-enforced deep work environment that eliminates digital distractions. Unlike browser extensions or standard blocking apps that are easy to bypass, Whiiteroom enforces session limits directly at the operating system level, combined with an embedded Chromium browser that strips YouTube of algorithmic feeds, comments, and recommendations.
+  <strong>Whiiteroom</strong> is a high-commitment focus environment designed for deep work, study marathons, and competitive exam preparation. Unlike browser extensions, DNS switchers, or soft reminder apps that are trivial to bypass, Whiiteroom enforces session limits directly at the operating system level and inside an embedded Chromium browser — isolating your work and removing digital distractions before they reach your screen.
 </p>
 
-[**🌐 Visit Official Website**](https://whiiteroom.com) • [**⚡ Try Interactive Mockup**](https://whiiteroom.com) • [**📥 Download for Windows**](https://github.com/archits790-ui/whiiteroom-releases/releases/download/v1.5.3/Whiiteroom-Windows-1.5.3-Setup.exe) • [**📖 Product Documentation**](https://whiiteroom.com/docs)
+<p align="center">
+  <a href="https://whiiteroom.com/#downloads"><strong>📥 Download for Windows & Android on whiiteroom.com</strong></a> • 
+  <a href="https://whiiteroom.com"><strong>⚡ Try Interactive Mockup</strong></a> • 
+  <a href="https://whiiteroom.com/docs"><strong>📖 Full Documentation</strong></a>
+</p>
 
 </div>
 
 ---
 
-## 🚀 Key Highlights & Features
+## 📑 Table of Contents
 
-### 1. 🧠 Whitelist Mode (Allow-Only Control)
-The ultimate high-commitment focus environment. Specify only the exact desktop apps, mobile applications, website domains, specific URLs, or local PDF textbook files you need. **Everything else outside your whitelist is blocked by default** — preventing impulsive context switching during exams, study marathons, and deep coding blocks.
+- [The Core Philosophy: "The White Room"](#-the-core-philosophy-the-white-room)
+- [How Enforcement Works (Technical Architecture)](#-how-enforcement-works-technical-architecture)
+- [Complete Feature Matrix](#-complete-feature-matrix)
+  - [1. Whitelist Mode (Allow-Only Control)](#1-whitelist-mode-maximum-control)
+  - [2. Blacklist Mode (Block-Only Control)](#2-blacklist-mode-maximum-flexibility)
+  - [3. Granular Distraction-Free YouTube Engine](#3-granular-distraction-free-youtube-engine)
+  - [4. Auto-Start Session Scheduler](#4-auto-start-session-scheduler)
+  - [5. 3 Strictness Levels (Relax, Friction & Strict)](#5-three-focus-strictness-modes)
+  - [6. Scheduled Rest Windows & Break Intervals](#6-scheduled-rest-windows--break-intervals)
+  - [7. Private Distraction Analytics](#7-private-distraction-analytics)
+- [Whiiteroom vs Cold Turkey vs Freedom vs Opal](#-whiiteroom-vs-traditional-focus-apps)
+- [Who is Whiiteroom Built For?](#-who-is-whiiteroom-built-for)
+- [Supported Platforms & Hardware Requirements](#-supported-platforms--hardware-requirements)
+- [Download & Installation](#-download--installation)
+- [Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+- [Community, Issues & Feature Requests](#-community-issues--feature-requests)
 
-### 2. 🔥 Blacklist Mode (Block-Only Control)
-Prefer open web access? Target and block only specific time-sink apps, distracting domains, or social media platforms while keeping the rest of your tools and search engines open. Ideal for researchers, journalists, and open-ended technical workflows.
+---
 
-### 3. 📺 Distraction-Free YouTube Engine
-Watch educational lectures, coding courses, or specific playlists without the distraction traps. Whiiteroom's embedded browser allows approved video, playlist, or channel URLs while **completely stripping the YouTube homepage feed, recommendation sidebar, Shorts, comments, and autoplay traps from the DOM**.
+## 🏛️ The Core Philosophy: "The White Room"
 
-### 4. 📅 Auto-Start Session Scheduler
-Set up a weekly focus calendar. Define recurring or one-time scheduled sessions for specific days and times. Whiiteroom **auto-starts your focus session on time with zero manual action required**. Each schedule supports independent custom whitelists/blacklists and configurable pre-launch warning notifications (1–15 min lead time).
+Imagine you are in a physical room:
+* On one side sits a textbook or coding challenge you need to conquer.
+* On the other side sits a gaming console, a phone with infinite video reels, and buzzing social media apps.
 
-### 5. 🔒 3 Strictness Modes
-* **Relax Mode:** Flexible sessions that you can exit early anytime without barriers.
-* **Friction Mode:** Adds deliberate typing challenges before letting you quit, eliminating impulsive session cancellation.
-* **Strict Mode:** Completely locks workspace boundaries until your session timer finishes — resisting force-kills, task switching, and reboots.
+When both options sit in the same room, equally effortless to reach, human willpower inevitably breaks. The problem with modern devices is that **the study room and the entertainment center are the exact same machine**. Your laptop for exam prep or deep programming is the same laptop that houses Discord, Steam, Twitter, and endless browser tabs.
 
-### 6. ☕ Scheduled Rest Windows & Break Timers
-Sustainable focus requires planned recovery. Configure scheduled break intervals (e.g., a 10-minute break every 50 minutes). Restrictions automatically lift during break windows for full device access and seamlessly auto-resume when break time expires.
+**Whiiteroom changes the environment digitally.**
+Before a session starts, you define your focus boundaries. Once you click start or your scheduled timer triggers, everything not explicitly approved is removed from the room. You don't need superhuman willpower because the temptation is physically stripped from your operating system until the work is done.
 
-### 7. 🛡️ OS-Level Enforcement & Reboot Persistence
-Whiiteroom operates at the kernel/process level using native OS APIs to intercept unauthorized processes and URL navigations before network requests are initiated. If your machine restarts or loses power, Whiiteroom's local state persistence automatically re-engages the lockdown upon boot with your remaining session timer intact.
+---
 
-### 8. 📊 100% Private Distraction Score
-Track total focused hours, clean study streaks, and distraction attempt counts over time. All session analytics and whitelist profiles are **stored 100% locally on your device** — your browsing data is never tracked, collected, or sold.
+## ⚙️ How Enforcement Works (Technical Architecture)
+
+Unlike standard blockers that rely on easily disabled Chrome extensions or circumventable local proxy servers, Whiiteroom implements a multi-tiered native security and focus enforcement engine:
+
+1. **OS-Level Process Interception:**
+   Whiiteroom enumerates running processes directly via Windows native APIs (`CreateToolhelp32Snapshot`, `Process32Next`, `TerminateProcess`). Any unapproved `.exe` application (games, messaging apps, secondary browsers) launched during an active session is terminated instantly upon detection.
+2. **Embedded Chromium Web Workspace:**
+   Standard external browsers (Chrome, Edge, Firefox, Brave) are suppressed during sessions. All approved web research runs inside Whiiteroom's embedded Chromium browser. Unwhitelisted web origins and third-party trackers are aborted before HTTP requests are dispatched over the network.
+3. **DOM-Level YouTube Content Stripper:**
+   When YouTube resources (video lectures, course playlists, or educational channels) are approved, Whiiteroom's internal parser removes homepage feeds, sidebar recommendations, Shorts reels, user comments, and autoplay triggers directly from the DOM tree. Only the chosen educational media plays.
+4. **Crash & Reboot Persistence:**
+   Active session timers, lockdown flags, and allowed profiles are serialized into a local SQLite database with startup registry hooks. If a device experiences a sudden power loss or restart, Whiiteroom boots automatically on startup and immediately restores the lockdown for the exact remaining duration.
+
+---
+
+## 🌟 Complete Feature Matrix
+
+### 1. Whitelist Mode (Maximum Control)
+* **Allow-Only Philosophy:** Everything outside your explicit list is blocked by default.
+* **Granular Item Support:** Whitelist entire desktop applications, specific websites, exact URLs, or local files (PDF textbooks, markdown notes, code repositories).
+* **Search & AI Assistance:** Whitelist `google.com` or AI assistants (`chatgpt.com`, `claude.ai`, `gemini.google.com`) so you can search documentation and ask technical questions without needing open web access.
+
+### 2. Blacklist Mode (Maximum Flexibility)
+* **Block-Only Control:** Born from months of beta feedback from researchers, writers, and exploratory programmers.
+* **Targeted Suppression:** Block only your known time-sink apps, social media domains, and video portals while keeping the rest of the web and developer tools completely open for spontaneous research.
+* **Zero Extra Cost:** Both Whitelist Mode and Blacklist Mode are included in all standard setups.
+
+### 3. Granular Distraction-Free YouTube Engine
+* **Video Whitelisting:** Add single educational video URLs.
+* **Playlist & Channel Whitelisting:** Add full course playlists or instructor channels.
+* **Algorithmic Isolation:** Access the knowledge you need on YouTube without the algorithmic traps designed to hijack your attention.
+
+### 4. Auto-Start Session Scheduler
+* **Weekly Focus Calendar:** Plan focus routines across Monday through Sunday with custom start times.
+* **Recurring vs One-Time:** Configure **Permanent** recurring weekly schedules or **One-Time** revision sessions that auto-delete after completion.
+* **Independent Lists Per Schedule:** Assign different custom whitelists/blacklists to different schedules (e.g., Physics morning session vs Coding afternoon session).
+* **Pre-Launch Notifications:** Get a heads-up warning 1 to 15 minutes before the session automatically locks your workspace.
+
+### 5. Three Focus Strictness Modes
+* **🟢 Relax Mode:** Focus with flexibility. Allows instant early exit at any point without barriers. Ideal for initial habit building.
+* **🟡 Friction Mode:** Solves impulsive session quitting by requiring deliberate unlock tasks (typing challenges / puzzles) before exiting early.
+* **🔴 Strict Mode:** Full commitment. No early exit button exists. The workspace remains locked until the session timer expires, with emergency recovery mechanisms intentionally difficult to access.
+
+### 6. Scheduled Rest Windows & Break Intervals
+* **Sustainable Deep Work:** Set customizable work/rest cycles (e.g., 50 min work / 10 min break, or 25 min / 5 min Pomodoro).
+* **Automated Rest Windows:** During scheduled breaks, workspace restrictions lift completely for full device access.
+* **Seamless Auto-Resume:** When the break countdown reaches zero, Whiiteroom automatically re-locks the workspace and resumes your study time without manual intervention.
+
+### 7. Private Distraction Analytics
+* **Distraction Score mirror:** Real-time logging of blocked app launch attempts and unauthorized domain requests.
+* **Zero Cloud Telemetry:** All study streak data, focus durations, and profile configs reside strictly in local device storage.
 
 ---
 
 ## ⚖️ Whiiteroom vs Traditional Focus Apps
 
-A side-by-side technical comparison showing how Whiiteroom differs from traditional website blockers and timer apps:
-
 | Feature / Capability | Whiiteroom | Cold Turkey | Freedom | Opal |
 | :--- | :---: | :---: | :---: | :---: |
 | **Whitelist Mode (Allow-Only Engine)** | **Native OS-Level**<br><sub>Everything blocked by default</sub> | **Partial**<br><sub>Desktop only</sub> | **No**<br><sub>Blacklist only</sub> | **No**<br><sub>Blacklist only</sub> |
 | **Blacklist Mode (Block-Only Control)** | **Yes**<br><sub>Switchable per profile</sub> | **Yes** | **Yes** | **Yes** |
-| **Granular YouTube Filtering** | **Yes**<br><sub>Whitelist specific video/playlist/channel; strips feed, comments, Shorts</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> |
+| **Granular YouTube Filtering** | **Yes**<br><sub>Whitelist video/playlist/channel; strips feeds & Shorts</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> |
 | **Auto-Start Session Scheduler** | **Yes**<br><sub>Weekly recurring & one-time calendar with pre-launch warning</sub> | **No**<br><sub>Manual start required</sub> | **No**<br><sub>Manual start required</sub> | **No**<br><sub>Manual start required</sub> |
 | **Scheduled Break Windows** | **Yes**<br><sub>Auto-lift & auto-resume timer windows</sub> | **No**<br><sub>Binary block duration</sub> | **No**<br><sub>Binary block duration</sub> | **No**<br><sub>Binary block duration</sub> |
 | **Kernel / OS-Level Enforcement** | **Yes**<br><sub>Process enum & Chromium browser control</sub> | **Yes**<br><sub>Registry locking</sub> | **No**<br><sub>VPN / DNS proxy level</sub> | **No**<br><sub>Screen Time API (iOS)</sub> |
@@ -73,54 +133,67 @@ A side-by-side technical comparison showing how Whiiteroom differs from traditio
 
 ---
 
-## 💻 Supported Operating Systems
+## 🎯 Who is Whiiteroom Built For?
 
-* **Windows:** Windows 10 & Windows 11 (64-bit native application with process management & embedded Chromium browser).
-* **Android:** Native APK available with app whitelist/blacklist interception, YouTube filter, and strict discipline profiles.
-* **macOS & iOS:** On active development roadmap.
-
----
-
-## 📥 Quick Download & Installation
-
-### Windows 10 / 11
-1. Download the latest installer from the official release page:
-   👉 **[Download Whiiteroom for Windows (Setup.exe)](https://github.com/archits790-ui/whiiteroom-releases/releases/download/v1.5.3/Whiiteroom-Windows-1.5.3-Setup.exe)**
-2. Run the installer and follow the setup prompt.
-3. Launch Whiiteroom, configure your whitelist or blacklist profile, and start your first focus session.
-
-### Android
-* Download the APK directly from the [Official Website Downloads](https://whiiteroom.com/#downloads).
+* **Competitive Exam Aspirants (JEE, NEET, UPSC, GATE, CA, CFA):** Fixed study timetables, massive syllabus coverage, and high stakes where losing hours to social media or short reels has real consequences.
+* **Software Engineers & Technical Writers:** Long 90+ minute uninterrupted coding sprints requiring terminal, IDE, and documentation isolation without Slack/Reddit interruptions.
+* **Researchers & Thesis Students:** Structured literature reading with local PDF files, whitelisted journal databases, and distraction-free reference lookups.
+* **Anyone Struggling with Impulsive Context Switching:** Individuals who find soft reminders and basic browser blockers too easy to dismiss or override when willpower runs out.
 
 ---
 
-## 📚 Community, Guides & Documentation
+## 💻 Supported Platforms & Hardware Requirements
 
-* 🌐 **Official Website:** [https://whiiteroom.com](https://whiiteroom.com)
-* 📖 **Feature Matrix & Guides:** [whiiteroom.com/features](https://whiiteroom.com/features)
-* ⏱️ **Focus Sessions & Scheduling:** [whiiteroom.com/focus-sessions](https://whiiteroom.com/focus-sessions)
-* 🔒 **Strict Mode & Anti-Bypass Details:** [whiiteroom.com/strict-mode](https://whiiteroom.com/strict-mode)
-* 📺 **Distraction-Free YouTube Guide:** [whiiteroom.com/youtube-filter](https://whiiteroom.com/youtube-filter)
-* ⚖️ **Comparisons:**
-  * [Whiiteroom vs Cold Turkey](https://whiiteroom.com/vs-cold-turkey)
-  * [Whiiteroom vs Freedom](https://whiiteroom.com/vs-freedom)
-  * [Whiiteroom vs Opal](https://whiiteroom.com/vs-opal)
-* ❓ **Frequently Asked Questions:** [whiiteroom.com/faq](https://whiiteroom.com/faq)
+| Platform | Supported Versions | Architecture | Enforcement Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Windows Desktop** | Windows 10 & Windows 11 | 64-bit (x64) | Native Process Termination, Embedded Chromium, Registry Hooks |
+| **Android Mobile** | Android 9.0 and higher | ARM64 / ARMv7 | App Overlay Interception, YouTube Filter Engine, Strict Mode Service |
+| **macOS & iOS** | In Active Development | Apple Silicon / Intel / iOS | Native Screen Time & App Sandbox Extensions *(Coming Soon)* |
 
 ---
 
-## 💬 Issue Tracking & Feedback
+## 📥 Download & Installation
 
-This public repository serves as the official issue tracker, bug reporting center, and feature roadmap discussion board for Whiiteroom.
+To download the official and verified build of Whiiteroom for Windows and Android, please visit the official website:
 
-* 🐛 **Found a bug?** [Open an Issue](https://github.com/archits790-ui/whiiteroom-App/issues)
-* 💡 **Have a feature request or suggestion?** [Start a Discussion](https://github.com/archits790-ui/whiiteroom-App/discussions)
+### 👉 [https://whiiteroom.com/#downloads](https://whiiteroom.com/#downloads)
+
+1. **Windows Installation:**
+   * Go to [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) and click **Download for Windows**.
+   * Run the installer (`Whiiteroom-Windows-Setup.exe`).
+   * Launch the application and select either Whitelist Mode or Blacklist Mode to begin.
+2. **Android Installation:**
+   * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) on your mobile browser.
+   * Download the official APK and grant the necessary accessibility and overlay focus permissions.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+#### What happens if my computer restarts or loses power during a Strict Mode session?
+Whiiteroom persists active session state to a local SQLite database and registers with Windows startup hooks. Upon boot, Whiiteroom launches immediately and re-engages the full lockdown for your remaining time.
+
+#### Can I use Whiiteroom for research without knowing all my websites in advance?
+Yes. You can switch to **Blacklist Mode** to block only your personal distractions while keeping the rest of the web open, or remain in **Whitelist Mode** and whitelist Google Search / AI assistants (`chatgpt.com`, `claude.ai`) to summarize external information for you.
+
+#### Is my browsing history or whitelist uploaded to any server?
+No. Whiiteroom is built with a local-first privacy architecture. All profile settings, whitelist entries, and session metrics remain stored 100% on your local device.
+
+---
+
+## 💬 Community, Issues & Feature Requests
+
+This public repository serves as the official issue tracker, bug reporting center, and public roadmap discussion board for Whiiteroom.
+
+* 🐛 **Found a bug?** [Submit a Bug Report](https://github.com/archits790-ui/whiiteroom-App/issues/new?template=bug_report.yml)
+* 💡 **Have a feature idea or feedback?** [Submit a Feature Request](https://github.com/archits790-ui/whiiteroom-App/issues/new?template=feature_request.yml)
+* 📖 **Read Full Canonical Guide:** [https://whiiteroom.com/what-is-whiiteroom](https://whiiteroom.com/what-is-whiiteroom)
 
 ---
 
 <div align="center">
-  <sub>Built for students, software engineers, researchers, and competitive exam aspirants (JEE, NEET, UPSC, GATE, CA) who demand real isolation over gentle reminders.</sub>
+  <sub>Built with high commitment for people whose work demands real isolation.</sub>
   <br />
   <br />
-  <strong>© 2026 Whiiteroom. All rights reserved. • <a href="https://whiiteroom.com">whiiteroom.com</a></strong>
+  <strong>© 2026 Whiiteroom • <a href="https://whiiteroom.com">https://whiiteroom.com</a></strong>
 </div>
