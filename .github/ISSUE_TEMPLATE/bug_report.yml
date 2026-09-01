@@ -1,0 +1,51 @@
+name: Bug Report
+description: Create a report to help us improve Whiiteroom
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug!
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Operating System / Platform
+      description: Which platform did you experience this issue on?
+      options:
+        - Windows 11
+        - Windows 10
+        - Android APK
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      description: What version of Whiiteroom are you running? (e.g. v1.5.3)
+      placeholder: v1.5.3
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Open Whiiteroom
+        2. Set mode to 'Strict Mode'
+        3. Launch session with custom whitelist...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
