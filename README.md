@@ -24,45 +24,46 @@
   <a href="https://whiiteroom.com/docs"><strong>📖 Full Documentation</strong></a>
 </p>
 
-<br />
-
-<p align="center">
-  <img src="Images/Setup/Whitelist(fullN).webp" alt="Whiiteroom Windows Desktop App" width="58%" />
-  &nbsp;&nbsp;
-  <img src="Images/Mobile/2.1%20Home(D).webp" alt="Whiiteroom Android App" width="28%" />
-</p>
-
 </div>
 
 ---
 
-## 📸 Visual Showcase & Screenshots
+## 💻 Windows Desktop Application Showcase
 
-### 💻 Windows Desktop Application
+Full OS-level focus environment with customizable whitelist/blacklist setup, integrated Pomodoro timers, and automated weekly calendar scheduler.
 
-| **Whitelist Setup Interface** | **Session Mode Selection** |
+| **Whitelist Setup Interface (Day Mode)** | **Focus Mode Selection (Relax, Friction, Strict)** |
 | :---: | :---: |
-| <img src="Images/Setup/Whitelist(Day).webp" alt="Whitelist Day Mode" width="100%" /> | <img src="Images/Setup/mode(day).webp" alt="Focus Mode Selection" width="100%" /> |
+| <img src="Images/Setup/Whitelist(Day).webp" alt="Windows Whitelist Setup" width="100%" /> | <img src="Images/Setup/mode(day).webp" alt="Focus Mode Selection" width="100%" /> |
 
-| **Auto-Start Session Scheduler** | **Pre-Session Review** |
+| **Auto-Start Session Scheduler** | **Pre-Session Review & Launch** |
 | :---: | :---: |
 | <img src="Images/Setup/Shedule(day).png" alt="Session Auto-Start Scheduler" width="100%" /> | <img src="Images/Setup/review(day).webp" alt="Session Review" width="100%" /> |
 
-### 📱 Android Mobile Application
+| **Full Desktop Workspace Overview (Night)** | **Settings & Preference Controls** |
+| :---: | :---: |
+| <img src="Images/Setup/Whitelist(fullN).webp" alt="Whiiteroom Desktop Workspace" width="100%" /> | <img src="Images/Setup/settings(day).webp" alt="Desktop Settings" width="100%" /> |
 
-<p align="center">
-  <img src="Images/Mobile/2.%20Home.webp" alt="Android Focus Home" width="28%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Images/Mobile/3.%20Whitelist.webp" alt="Android Whitelist Setup" width="28%" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Images/Mobile/4.%20Browsers.webp" alt="Android Embedded Browser" width="28%" />
-</p>
+---
+
+## 📱 Android Mobile Application Showcase
+
+Mobile app distraction blocking with native app interception, custom focus timers, and embedded browser capabilities.
+
+| **Focus Dashboard & Presets** | **App Whitelist Control** | **Website Whitelist Rules** | **Embedded Distraction-Free Browser** |
+| :---: | :---: | :---: | :---: |
+| <img src="Images/Mobile/2.%20Home.webp" alt="Android Focus Home" width="100%" /> | <img src="Images/Mobile/3.%20whitelist(app).webp" alt="Android App Whitelist" width="100%" /> | <img src="Images/Mobile/4.%20whitelist%20(website).webp" alt="Android Website Whitelist" width="100%" /> | <img src="Images/Mobile/6.%20Browser.webp" alt="Android Embedded Browser" width="100%" /> |
+
+| **Daily Planner & To-Do** | **Interactive Timetable** | **Notes & Sticky Reminders** | **Study Flashcards** |
+| :---: | :---: | :---: | :---: |
+| <img src="Images/Mobile/12.%20To-Do.webp" alt="Android To-Do" width="100%" /> | <img src="Images/Mobile/14.%20Time%20table.webp" alt="Android Timetable" width="100%" /> | <img src="Images/Mobile/15.%20Sticky%20Notes.webp" alt="Android Sticky Notes" width="100%" /> | <img src="Images/Mobile/16.%20Flash%20Card.webp" alt="Android Flashcards" width="100%" /> |
 
 ---
 
 ## 📑 Table of Contents
 
-- [Visual Showcase & Screenshots](#-visual-showcase--screenshots)
+- [Windows Desktop Application Showcase](#-windows-desktop-application-showcase)
+- [Android Mobile Application Showcase](#-android-mobile-application-showcase)
 - [The Core Philosophy: "The White Room"](#-the-core-philosophy-the-white-room)
 - [How Enforcement Works (Technical Architecture)](#-how-enforcement-works-technical-architecture)
 - [Complete Feature Matrix](#-complete-feature-matrix)
