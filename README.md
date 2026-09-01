@@ -34,7 +34,7 @@ Full OS-level focus environment with customizable whitelist/blacklist setup, int
 
 | **Whitelist Setup Interface (Day Mode)** | **Focus Mode Selection (Relax, Friction, Strict)** |
 | :---: | :---: |
-| <img src="Images/Setup/Whitelist(Day).webp" alt="Windows Whitelist Setup" width="100%" /> | <img src="Images/Setup/mode(day).webp" alt="Focus Mode Selection" width="100%" /> |
+| <img src="Images/Setup/Whitelist(Day).webp" alt="Windows Whitelist Setup" width="100%" /> | <img src="Images/Setup/Mode(Day).webp" alt="Focus Mode Selection" width="100%" /> |
 
 | **Auto-Start Session Scheduler** | **Pre-Session Review & Launch** |
 | :---: | :---: |
