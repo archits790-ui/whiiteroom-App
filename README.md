@@ -195,7 +195,7 @@ Whiiteroom is engineered with strict ethical software design principles to ensur
 * 🧹 **Clean System Integration & Reversibility:** Whiiteroom does not modify your core system files, DNS servers, or network drivers. Once a session completes (or when you are outside an active session), 100% of standard OS controls, apps, and browsers remain fully accessible.
 * 📦 **Standard Safe Installer & Full Uninstall Support:** Whiiteroom installs cleanly into standard user directories with a standard uninstaller. It does not install root certificates, background kernel drivers, or hidden persistent daemons.
 * 🧪 **Independent Security Verification (0/70 Clean on VirusTotal):** You can inspect and verify any official Whiiteroom release binary using industry-standard multi-engine antivirus analyzers:
-  * 🔍 [**View Live VirusTotal Analysis Report (0/70 Detections Clean)**](https://www.virustotal.com/gui/file/9a7098fbb335cbfc589f353ebd4503d28e28397ce087ee659baa2a4bff6502e0)
+  * 🔍 **Live VirusTotal Report (0/70 Clean):** https://www.virustotal.com/gui/file/9a7098fbb335cbfc589f353ebd4503d28e28397ce087ee659baa2a4bff6502e0
   * 📋 **SHA-256 Checksum:** `9a7098fbb335cbfc589f353ebd4503d28e28397ce087ee659baa2a4bff6502e0`
   * 🛡️ [Hybrid Analysis Malware Sandbox](https://www.hybrid-analysis.com/)
 * 🌐 **Verified Distribution:** All official binaries and mobile store releases are published directly through [whiiteroom.com](https://whiiteroom.com) and the Google Play Store.
