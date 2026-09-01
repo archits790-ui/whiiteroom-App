@@ -54,19 +54,22 @@ Track total focused hours, clean study streaks, and distraction attempt counts o
 
 ---
 
-## 🥊 Whiiteroom vs Traditional Focus Apps
+## ⚖️ Whiiteroom vs Traditional Focus Apps
 
-| Feature | **Whiiteroom** | Cold Turkey | Freedom | Opal |
+A side-by-side technical comparison showing how Whiiteroom differs from traditional website blockers and timer apps:
+
+| Feature / Capability | Whiiteroom | Cold Turkey | Freedom | Opal |
 | :--- | :---: | :---: | :---: | :---: |
-| **Whitelist Mode (Allow-Only Engine)** | ✅ **Native OS-Level** | ⚠️ Partial | ❌ No | ❌ No |
-| **Blacklist Mode (Block-Only Engine)** | ✅ **Yes** | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Granular YouTube Filtering (No Feed/Shorts)** | ✅ **Yes (URL / Playlist / Channel)** | ❌ Domain Block Only | ❌ Domain Block Only | ❌ Domain Block Only |
-| **Auto-Start Session Scheduler** | ✅ **Yes (Weekly Recurring & 1-Time)** | ❌ Manual Start | ❌ Manual Start | ❌ Manual Start |
-| **Scheduled Break Windows (Auto-Resume)** | ✅ **Yes** | ❌ No | ❌ No | ❌ No |
-| **Crash & Reboot Persistence** | ✅ **Yes (SQLite Local State)** | ⚠️ Partial | ❌ No | ❌ No |
-| **Local Privacy (No Data Tracking)** | ✅ **100% Local Device Storage** | ✅ Local | ⚠️ Cloud-Synced | ⚠️ Cloud-Synced |
-| **Supported Platforms** | 💻 **Windows 10/11 & 📱 Android APK** | 💻 Desktop Only | 💻 Desktop & 📱 Mobile | 📱 iOS & 💻 macOS |
-| **Launch Pricing** | 🎁 **100% Free PRO Access** | 💰 $29.99 USD | 💰 $39.99/yr | 💰 $59.99/yr |
+| **Whitelist Mode (Allow-Only Engine)** | **Native OS-Level**<br><sub>Everything blocked by default</sub> | **Partial**<br><sub>Desktop only</sub> | **No**<br><sub>Blacklist only</sub> | **No**<br><sub>Blacklist only</sub> |
+| **Blacklist Mode (Block-Only Control)** | **Yes**<br><sub>Switchable per profile</sub> | **Yes** | **Yes** | **Yes** |
+| **Granular YouTube Filtering** | **Yes**<br><sub>Whitelist specific video/playlist/channel; strips feed, comments, Shorts</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> | **No**<br><sub>Domain block only</sub> |
+| **Auto-Start Session Scheduler** | **Yes**<br><sub>Weekly recurring & one-time calendar with pre-launch warning</sub> | **No**<br><sub>Manual start required</sub> | **No**<br><sub>Manual start required</sub> | **No**<br><sub>Manual start required</sub> |
+| **Scheduled Break Windows** | **Yes**<br><sub>Auto-lift & auto-resume timer windows</sub> | **No**<br><sub>Binary block duration</sub> | **No**<br><sub>Binary block duration</sub> | **No**<br><sub>Binary block duration</sub> |
+| **Kernel / OS-Level Enforcement** | **Yes**<br><sub>Process enum & Chromium browser control</sub> | **Yes**<br><sub>Registry locking</sub> | **No**<br><sub>VPN / DNS proxy level</sub> | **No**<br><sub>Screen Time API (iOS)</sub> |
+| **Crash & Reboot Persistence** | **Yes**<br><sub>Auto re-locks upon reboot via local SQLite state</sub> | **Partial**<br><sub>Re-engages on boot</sub> | **No**<br><sub>Session ends on restart</sub> | **Partial**<br><sub>iOS Screen Time dependent</sub> |
+| **Data Privacy & Telemetry** | **100% Local Device**<br><sub>Zero tracking, zero cloud logging</sub> | **Local** | **Cloud-Synced** | **Cloud-Synced** |
+| **Cross-Platform Availability** | **Windows 10/11 & Android**<br><sub>(macOS & iOS on roadmap)</sub> | **Windows & macOS**<br><sub>(No mobile app)</sub> | **Windows, Mac, iOS, Android** | **iOS & macOS Only**<br><sub>(No Windows / Android)</sub> |
+| **Launch Pricing Model** | **100% Free PRO Access**<br><sub>(Launch phase offer)</sub> | **$29.99 USD**<br><sub>(One-time Pro license)</sub> | **$39.99 / year**<br><sub>(Subscription)</sub> | **$59.99 / year**<br><sub>(Subscription)</sub> |
 
 ---
 
