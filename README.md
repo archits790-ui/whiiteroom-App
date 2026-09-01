@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛡️ Whiiteroom
+<img src="logo.png" alt="Whiiteroom Logo" width="80" height="80" />
+
+# Whiiteroom
 
 **The OS-Level Distraction-Free Focus Workspace for Windows & Android**
 
@@ -54,7 +56,7 @@ Track total focused hours, clean study streaks, and distraction attempt counts o
 
 ## 🥊 Whiiteroom vs Traditional Focus Apps
 
-| Feature | 🛡️ Whiiteroom | Cold Turkey | Freedom | Opal |
+| Feature | **Whiiteroom** | Cold Turkey | Freedom | Opal |
 | :--- | :---: | :---: | :---: | :---: |
 | **Whitelist Mode (Allow-Only Engine)** | ✅ **Native OS-Level** | ⚠️ Partial | ❌ No | ❌ No |
 | **Blacklist Mode (Block-Only Engine)** | ✅ **Yes** | ✅ Yes | ✅ Yes | ✅ Yes |
