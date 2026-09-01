@@ -9,7 +9,7 @@
 [![Official Website](https://img.shields.io/badge/Official_Website-whiiteroom.com-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whiiteroom.com)
 [![Windows App](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://whiiteroom.com/#downloads)
 [![Android App](https://img.shields.io/badge/Google_Play_Store-Android-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)](https://whiiteroom.com/#downloads)
-[![Platform License](https://img.shields.io/badge/License-Freeware%20%2F%20Launch%20Offer-emerald?style=for-the-badge)](https://whiiteroom.com/#pricing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Whiiteroom-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/whiiteroom/posts/?feedView=all)
 [![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Local%20Storage-blue?style=for-the-badge&logo=shield&logoColor=white)](https://whiiteroom.com/security)
 
 <br />
@@ -235,13 +235,13 @@ Yes. You can switch to **Blacklist Mode** to suppress only your known time-wasti
 
 ---
 
-## 💬 Community, Issues & Feature Requests
-
-This public repository serves as the official issue tracker, bug reporting center, and public roadmap discussion board for Whiiteroom.
+## 💬 Community, Issues & Connect
 
 * 🐛 **Found a bug?** [Submit a Bug Report](https://github.com/archits790-ui/whiiteroom-App/issues/new?template=bug_report.yml)
 * 💡 **Have a feature idea or feedback?** [Submit a Feature Request](https://github.com/archits790-ui/whiiteroom-App/issues/new?template=feature_request.yml)
 * 📖 **Read Full Canonical Guide:** [https://whiiteroom.com/what-is-whiiteroom](https://whiiteroom.com/what-is-whiiteroom)
+* 💼 **Official LinkedIn Page:** [Whiiteroom on LinkedIn](https://www.linkedin.com/company/whiiteroom/posts/?feedView=all)
+* 👤 **Founder / Creator:** [Archit Singh on LinkedIn](https://www.linkedin.com/in/archit-singh-96a0b4293/)
 
 ---
 
@@ -250,4 +250,6 @@ This public repository serves as the official issue tracker, bug reporting cente
   <br />
   <br />
   <strong>© 2026 Whiiteroom • <a href="https://whiiteroom.com">https://whiiteroom.com</a></strong>
+  <br />
+  <sub>Connect with us on <a href="https://www.linkedin.com/company/whiiteroom/posts/?feedView=all">LinkedIn</a> • Founded by <a href="https://www.linkedin.com/in/archit-singh-96a0b4293/">Archit Singh</a></sub>
 </div>
