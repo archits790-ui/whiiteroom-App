@@ -194,6 +194,9 @@ Whiiteroom is engineered with strict ethical software design principles to ensur
 * 🛡️ **100% Local-First Architecture:** All your whitelist profiles, focus timer metrics, and study streak statistics are stored exclusively in a local SQLite database on your machine. No browsing history or personal data is ever collected, transmitted, or sold.
 * 🧹 **Clean System Integration & Reversibility:** Whiiteroom does not modify your core system files, DNS servers, or network drivers. Once a session completes (or when you are outside an active session), 100% of standard OS controls, apps, and browsers remain fully accessible.
 * 📦 **Standard Safe Installer & Full Uninstall Support:** Whiiteroom installs cleanly into standard user directories with a standard uninstaller. It does not install root certificates, background kernel drivers, or hidden persistent daemons.
+* 🧪 **Independent Security Verification:** You are welcome to inspect and verify any official Whiiteroom release binary using industry-standard multi-engine antivirus analyzers:
+  * 🔍 [VirusTotal Security Scanner (70+ Antivirus Engines)](https://www.virustotal.com/gui/home/upload)
+  * 🛡️ [Hybrid Analysis Malware Sandbox](https://www.hybrid-analysis.com/)
 * 🌐 **Verified Distribution:** All official binaries and mobile store releases are published directly through [whiiteroom.com](https://whiiteroom.com) and the Google Play Store.
 
 ---
@@ -206,7 +209,11 @@ All official, verified releases for Windows and Android (Google Play Store) are 
 
 1. **Windows 10 / 11 Desktop:**
    * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) and click **Download for Windows**.
-   * Run the standard setup wizard (`Whiiteroom-Windows-Setup.exe`).
+   * Run the installer wizard (`Whiiteroom-Windows-Setup.exe`).
+   * **Note on Windows SmartScreen (Blue Screen Prompt):** As an independent developer project currently undergoing initial distribution, commercial EV (Extended Validation) code-signing certificates are in the process of being acquired. If Windows SmartScreen displays a *"Windows protected your PC"* prompt on first launch:
+     1. Click **More info**
+     2. Click **Run anyway**
+     3. *You can also upload the installer to [VirusTotal](https://www.virustotal.com) at any time to verify that it is 100% clean and free of malware.*
    * Launch Whiiteroom, select your preferred mode (Whitelist or Blacklist), and start your session.
 2. **Android Mobile:**
    * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) to get the direct Google Play Store install link for your Android device.
