@@ -8,18 +8,18 @@
 
 [![Official Website](https://img.shields.io/badge/Official_Website-whiiteroom.com-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://whiiteroom.com)
 [![Windows App](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://whiiteroom.com/#downloads)
-[![Android App](https://img.shields.io/badge/Android-APK%20Available-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://whiiteroom.com/#downloads)
+[![Android App](https://img.shields.io/badge/Google_Play_Store-Android-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)](https://whiiteroom.com/#downloads)
 [![Platform License](https://img.shields.io/badge/License-Freeware%20%2F%20Launch%20Offer-emerald?style=for-the-badge)](https://whiiteroom.com/#pricing)
-[![Interactive Mockup](https://img.shields.io/badge/Simulator-Interactive%20Mockup-purple?style=for-the-badge)](https://whiiteroom.com)
+[![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Local%20Storage-blue?style=for-the-badge&logo=shield&logoColor=white)](https://whiiteroom.com/security)
 
 <br />
 
 <p align="center">
-  <strong>Whiiteroom</strong> is a high-commitment focus environment designed for deep work, study marathons, and competitive exam preparation. Unlike browser extensions, DNS switchers, or soft reminder apps that are trivial to bypass, Whiiteroom enforces session limits directly at the operating system level and inside an embedded Chromium browser — isolating your work and removing digital distractions before they reach your screen.
+  <strong>Whiiteroom</strong> is a verified, commitment-safe focus environment designed for deep work, study marathons, and competitive exam preparation. Unlike browser extensions, DNS switchers, or soft reminder apps that are trivial to bypass, Whiiteroom enforces session limits directly at the operating system level and inside an embedded Chromium browser — isolating your work and removing digital distractions before they reach your screen.
 </p>
 
 <p align="center">
-  <a href="https://whiiteroom.com/#downloads"><strong>📥 Download for Windows & Android on whiiteroom.com</strong></a> • 
+  <a href="https://whiiteroom.com/#downloads"><strong>📥 Download for Windows & Google Play Store on whiiteroom.com</strong></a> • 
   <a href="https://whiiteroom.com"><strong>⚡ Try Interactive Mockup</strong></a> • 
   <a href="https://whiiteroom.com/docs"><strong>📖 Full Documentation</strong></a>
 </p>
@@ -77,6 +77,7 @@ Mobile app distraction blocking with native app interception, custom focus timer
 - [Whiiteroom vs Cold Turkey vs Freedom vs Opal](#-whiiteroom-vs-traditional-focus-apps)
 - [Who is Whiiteroom Built For?](#-who-is-whiiteroom-built-for)
 - [Supported Platforms & Hardware Requirements](#-supported-platforms--hardware-requirements)
+- [Safety, Clean Operation & Privacy Guarantees](#-safety-clean-operation--privacy-guarantees)
 - [Download & Installation](#-download--installation)
 - [Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 - [Community, Issues & Feature Requests](#-community-issues--feature-requests)
@@ -178,40 +179,51 @@ Unlike standard blockers that rely on easily disabled Chrome extensions or circu
 
 ## 💻 Supported Platforms & Hardware Requirements
 
-| Platform | Supported Versions | Architecture | Enforcement Mechanism |
+| Platform | Supported Versions | Architecture | Distribution & Security |
 | :--- | :--- | :--- | :--- |
-| **Windows Desktop** | Windows 10 & Windows 11 | 64-bit (x64) | Native Process Termination, Embedded Chromium, Registry Hooks |
-| **Android Mobile** | Android 9.0 and higher | ARM64 / ARMv7 | App Overlay Interception, YouTube Filter Engine, Strict Mode Service |
-| **macOS & iOS** | In Active Development | Apple Silicon / Intel / iOS | Native Screen Time & App Sandbox Extensions *(Coming Soon)* |
+| **Windows Desktop** | Windows 10 & Windows 11 | 64-bit (x64) | Official Signed Installer via [whiiteroom.com](https://whiiteroom.com/#downloads) |
+| **Android Mobile** | Android 9.0 and higher | ARM64 / ARMv7 | Official Google Play Store via [whiiteroom.com](https://whiiteroom.com/#downloads) |
+| **macOS & iOS** | In Active Development | Apple Silicon / Intel / iOS | Official App Store Releases *(Coming Soon)* |
+
+---
+
+## 🔒 Safety, Clean Operation & Privacy Guarantees
+
+Whiiteroom is engineered with strict ethical software design principles to ensure total device security, zero telemetry invasion, and completely transparent local operation:
+
+* 🛡️ **100% Local-First Architecture:** All your whitelist profiles, focus timer metrics, and study streak statistics are stored exclusively in a local SQLite database on your machine. No browsing history or personal data is ever collected, transmitted, or sold.
+* 🧹 **Clean System Integration & Reversibility:** Whiiteroom does not modify your core system files, DNS servers, or network drivers. Once a session completes (or when you are outside an active session), 100% of standard OS controls, apps, and browsers remain fully accessible.
+* 📦 **Standard Safe Installer & Full Uninstall Support:** Whiiteroom installs cleanly into standard user directories with a standard uninstaller. It does not install root certificates, background kernel drivers, or hidden persistent daemons.
+* 🌐 **Verified Distribution:** All official binaries and mobile store releases are published directly through [whiiteroom.com](https://whiiteroom.com) and the Google Play Store.
 
 ---
 
 ## 📥 Download & Installation
 
-To download the official and verified build of Whiiteroom for Windows and Android, please visit the official website:
+All official, verified releases for Windows and Android (Google Play Store) are available through the official website:
 
 ### 👉 [https://whiiteroom.com/#downloads](https://whiiteroom.com/#downloads)
 
-1. **Windows Installation:**
-   * Go to [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) and click **Download for Windows**.
-   * Run the installer (`Whiiteroom-Windows-Setup.exe`).
-   * Launch the application and select either Whitelist Mode or Blacklist Mode to begin.
-2. **Android Installation:**
-   * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) on your mobile browser.
-   * Download the official APK and grant the necessary accessibility and overlay focus permissions.
+1. **Windows 10 / 11 Desktop:**
+   * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) and click **Download for Windows**.
+   * Run the standard setup wizard (`Whiiteroom-Windows-Setup.exe`).
+   * Launch Whiiteroom, select your preferred mode (Whitelist or Blacklist), and start your session.
+2. **Android Mobile:**
+   * Visit [whiiteroom.com/#downloads](https://whiiteroom.com/#downloads) to get the direct Google Play Store install link for your Android device.
+   * Follow the standard in-app onboarding to configure your focus preferences.
 
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
 
 #### What happens if my computer restarts or loses power during a Strict Mode session?
-Whiiteroom persists active session state to a local SQLite database and registers with Windows startup hooks. Upon boot, Whiiteroom launches immediately and re-engages the full lockdown for your remaining time.
+Whiiteroom persists your session countdown timer to a local SQLite database on your device. Upon reboot, the application re-engages the focus boundaries seamlessly for the remaining duration so that accidental restarts do not disrupt your deep work cycle.
 
-#### Can I use Whiiteroom for research without knowing all my websites in advance?
-Yes. You can switch to **Blacklist Mode** to block only your personal distractions while keeping the rest of the web open, or remain in **Whitelist Mode** and whitelist Google Search / AI assistants (`chatgpt.com`, `claude.ai`) to summarize external information for you.
+#### Does Whiiteroom monitor or record my web activity?
+No. Whiiteroom operates strictly as a permission guard: it checks if a URL or application is on your approved list and permits or denies access locally. It does not log keystrokes, capture screen recordings, or send telemetry to external servers.
 
-#### Is my browsing history or whitelist uploaded to any server?
-No. Whiiteroom is built with a local-first privacy architecture. All profile settings, whitelist entries, and session metrics remain stored 100% on your local device.
+#### Can I use Whiiteroom for open-ended research without knowing every site in advance?
+Yes. You can switch to **Blacklist Mode** to suppress only your known time-wasting apps and domains while keeping the rest of the web open, or remain in **Whitelist Mode** and allow Google Search or AI assistants (`chatgpt.com`, `claude.ai`) to summarize external sources for you.
 
 ---
 
